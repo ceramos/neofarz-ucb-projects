@@ -720,7 +720,7 @@ module FPGA_TOP2_PLUS(
 	wire [7:0] SenderAddr;
 	wire [7:0] RecipientAddr;
 	
-	Tranceiver chipcon(	
+	Transceiver chipcon(	
 							 .Channel(~SW9_[8:5]),												        	//channel
                       .SrcAddr({4'hF, ~SW10_[8:5]}), .DestAddr({4'hF, ~SW10_[4:1]}),	//addressing			    
 						    .FIFO(fifoDelay), .FIFOP(fifopDelay),						           	//status indicators
