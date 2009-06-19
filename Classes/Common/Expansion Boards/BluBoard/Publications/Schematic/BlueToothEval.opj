@@ -1,0 +1,149 @@
+(ExpressProject "BlueToothEval"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "T:\Cadence\SPB_16_0\tools\capture\LIBRARY\Discrete.olb"
+        (Type "Schematic Library"))
+      (File ".\lib\bluetootheval.olb"
+        (Type "Schematic Library"))
+      (File "w:\beekeeper\pcbs\mainboard\cis\lib\lib.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\bluetootheval.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine
+       "{Value}{Source Package}{POWER_GROUP}{PCB_Footprint}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (HDR64
+      (FullPartName "HDR64.Normal")
+      (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (HDR32X1
+      (FullPartName "HDR32X1.Normal")
+      (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL/SM
+      (FullPartName "CRYSTAL/SM.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ANTENNA
+      (FullPartName "ANTENNA.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CC2520
+      (FullPartName "CC2520.Normal")
+      (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (HEXLED
+      (FullPartName "HEXLED.Normal")
+      (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (RESAR_IS_4/SM
+      (FullPartName "RESAR_IS_4/SM.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Jumper
+      (FullPartName "Jumper.Normal")
+      (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (DS3231
+      (FullPartName "DS3231.Normal")
+      (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (DIP8
+      (FullPartName "DIP8.Normal")
+      (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    ("RGB LED Common Anode"
+      (FullPartName "RGB LED Common Anode.Normal")
+      (LibraryName "W:\BEEKEEPER\PCBS\MAINBOARD\CIS\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (P82B96
+      (FullPartName "P82B96.Normal")
+      (LibraryName "W:\BEEKEEPER\PCBS\MAINBOARD\CIS\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    ("6-Pin Connector"
+      (FullPartName "6-Pin Connector.Normal")
+      (LibraryName
+         "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (MPS5179
+      (FullPartName "MPS5179.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (CAP/SM
+      (FullPartName "CAP/SM.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE BREAKDOWN"
+      (FullPartName "DIODE BREAKDOWN.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RGBLed
+      (FullPartName "RGBLed.Normal")
+      (LibraryName
+         "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR/SM
+      (FullPartName "RESISTOR/SM.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PCF8591
+      (FullPartName "PCF8591.Normal")
+      (LibraryName
+         "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (PCA9635
+      (FullPartName "PCA9635.Normal")
+      (LibraryName
+         "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "W:\BlueToothEval\Schematic\bluetootheval.dsn")
+      (Path "Design Resources" "W:\BlueToothEval\Schematic\bluetootheval.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "W:\BlueToothEval\Schematic\bluetootheval.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "W:\BlueToothEval\Schematic\lib\bluetootheval.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -28 0 200 0 584"))
+      (Tab 0)))
+  (MPSSessionName "il0rusa")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.0\tools\capture\library"))

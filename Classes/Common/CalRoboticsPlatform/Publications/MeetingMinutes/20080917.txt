@@ -1,0 +1,42 @@
+from:
+	Bharathwaj Muthuswamy <mbharat@cory.eecs.berkeley.edu>
+reply-to:
+	mbharat@cory.eecs.berkeley.edu
+to:
+	Ferenc KOVAC <ferenc@berkeley.edu>,
+	il0rusa <il0rusa@gmail.com>,
+	Farzad Fatollahi-Fard <neofarz@gmail.com>,
+	Filip Furmanek <filipfurmanek@gmail.com>,
+	Winthrop Williams <Winthrop@esg.eecs.berkeley.edu>
+date:
+	Wed, Sep 17, 2008 at 19:53
+subject:
+	Embedded Computing Platform: Meeting minutes from 09/17/08
+mailed-by:
+	cory.eecs.berkeley.edu
+
+Hey guys,
+
+Lets decide to send out weekly meeting minutes from now on.  I think it should basically be a summary of what we want to do for next week.  I will do so for this week:
+
+To-do for next week's (09/24/08) meeting:
+1.  Ilia:  A simple presentation on ANT, talk to BWRC guys about the A/D and D/A they use and he will **try** to get a ROACH board.
+2.  Bart:  ROACH board schematics (?????), start doing a block diagram of the new embedded computing platform.
+3.  All of us:  need to come up with a catchy name for the board.
+
+Ferenc:  I wanted to practice some GERBER stuff, I just found out that our MultiSim key does NOT work with UltiBoard.  We should get a new key for UltiBoard from Electronics Workbench this Friday.
+
+On an aside, here is a really good and short article (courtesy of IBM) about RT-LINUX architecture:
+
+http://www.ibm.com/developerworks/linux/library/l-real-time-linux/
+
+Have a great week.
+
+-- 
+Bharathwaj "Bart Simpson" Muthuswamy
+EE Ph.D. Student
+Nonlinear Electronics Lab (NOEL)
+http://nonlinear.eecs.berkeley.edu
+EECS Department
+University of California, Berkeley
+
