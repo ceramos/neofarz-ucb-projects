@@ -1,0 +1,7 @@
+LMX9838: Datasheet
+
+AN-1811: Application Note 1811 Bluetooth Antenna Design
+AN-1709: Application Note 1709 LMX9838 Bluetooth® (PRD 2.0) Qualification Guideline
+AN-1699: Application Note 1699 LMX9838 Software Users Guide
+AN-1706: Application Note 1706 LMX9838 Firmware Release Note
+AN-1700: Application Note 1700 LMX9838 Cable Replacement

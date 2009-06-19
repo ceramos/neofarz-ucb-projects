@@ -1,0 +1,130 @@
+Summary
+	CS150 & CS194: ML505/XUPv5
+	EE Courses: Digilent Nexsys2
+
+
+The current status of the various candidate FPGA boards as well as the CS and EE classes
+can be found in the board matrix (sheets 1 and 2).  The big problems are:
+
+	1) Every class has a different board, hence programming environment & problems.
+	2) Some of the boards are custom built, making them hard to fix and replace.
+	3) Some of the boards are quickly becoming out-dated.
+	4) There's little future proofing for any of the current boards.
+	5) Introducing a new board is costly in terms of course material updates.
+	6) Classes have certain requirements for performance and I/O which must be met.
+
+Given the information in the board matrix, and the status of current FPGA related research
+projects, the choice for CS150 and CS194 is easy: they should use the Xilinx ML505/XUPV5.
+The ML505 addresses the above concerns better than any of the other boards as shown below:
+
+	1) CS150 and CS194 will share a board.  TAs for CS150 are likely to be taking CS194.
+		Of the other boards only the DE3 would likely be appropriate for CS194, however
+		it's rigid plugin infrastructure, selectable voltages, low production and
+		upcoming obsolescence make it an unsuitable choice.
+	2) The ML505/XUPv5 is a standard Xilinx demonstrator board well supported by Xilinx.
+		The Altera boards are similarly supported.  In both cases some custom add-on
+		boards are likely to be required for e.g. ZigBee and Bluetooth radios.
+	3) The ML505/XUPv5 uses the Xilinx Virtex5 chips, which are top-of-the-line.
+		Of the other boards only the DE3 contains a similarly top-of-the-line part,
+		whose successor has been announced even though the DE3 has barely reached
+		production.
+	4) Nearly all of the boards have reasonable expansion headers, however the
+		ML505/XUPv5 and DE3 have MGTs for very high bandwidth applications.  In
+		particular the ML505/XUPv5 has SATA connectors, 1Gb Ethernet and an SFP
+		connector for e.g. video applications.
+	5) The ML505/XUPv5 will be well supported, including introductory CS150-style labs
+		and all board level firmware, by the RAMP project.  That decision is
+		final and independent of any course material.  This means that both TAs
+		and even course material can be shared easily with research.  No other
+		board can come close.  Altera's offer to pay for course development is very
+		generous, but the problem of finding someone qualified remains.  None of
+		the current batch of TAs has the extensive teaching experience needed to
+		re-imagine the class, yet.  Furthermore, their time would, at best, likely
+		be split between CS150 and RAMP, meaning that throwing money at this problem
+		won't solve it.
+	6) All boards have similar levels of I/O in terms of audio and video connections,
+		however the Altera boards do not have the network bandwidth to support this.
+		All boards have comparable levels of RAM, including SRAM, Flash and DRAM.
+		As complex as it is the DDR2 memory on the ML505/XUPv5 and DE3 is probably the
+		right choice for CS150 going forward.
+
+The DE3 is comparable on 1-4, the DE2 on 6, and nothing is comparable on 5. The ML505 is a
+winner here, given #5 means that CS150 development costs for the ML505/XUPv5 will be
+negligable.  Furthermore the ML505/XUPv5 comes out ahead when compared to the existing
+CaLinx2+ boards, whereas the DE2-70 is merely comparable and the DE3, with its poor expansion
+design and user selectable voltages in a step in the wrong direction.
+
+If we are committed to a new board, only the ML505/XUPv5 is a step forward, and will have
+minor, if any, impact on CS150 thanks to collaboration with RAMP, Xilinx and the current
+CS150 TAs.
+
+
+
+
+
+
+The state of the EE (non-cs150) classes is less clear, and I don't know it as well.  Most of the
+classes seem to need some basic features however:
+
+	1) A2D and D2A for interfacing (perhaps OpAmp boards and such even).
+	2) A CPU which can be easily programmed without resorting to FPGA CAD tools.
+	3) Motor control circuitry
+	4) Reasonable size & power consumption for portable applications
+	5) Integration with DSP toolflows
+
+My suggestion at this point is to use a smaller, low power FPGA board for these classes.  Points
+1 and 3-5 are easy to address this way.  Point 2 can be addressed by generating (ahead of time)
+a single FPGA bitfile containing a processor, thereby allowing students to avoid touching any
+FPGA tools whatsoever if desired, but leaving the instructor the flexibility to use an FPGA.  This
+also means the board can be far simpler than would be possible with a hard-core CPU, making it less
+expansive to maintain and use.
+
+The Digilent Nexsys2 seems to be the best choice.  According to Blair Fort, Altera and Terasic do
+not make a comparable board, with the closest being the DE1.  The primary requirements
+here are size, power and lack of complexity for those classes which do not focus on FPGAs, but
+do need processing power and even mobility.
+
+The Nexsys2 supports 1-5 well including a WIDE range of expansion boards and a low price
+meaning students could buy their own boards, and experiment before or after the class.  It does
+this at the cost of a smaller FPGA as well as requiring course development time and money.
+The good news however is that similar Spartan3 based boards have been used by myself and many
+of the upcoming batch of TAs and undergraduates working on the RAMP project, meaning that
+this development should be accelerated.
+
+My original recommendation was to use an Altera board for the non-CS150 classes, in order to take
+advantage of their generous support, and bring them on to campus in some capacity.  However,
+as stated by their representative, they have no truly suitable boards.  While a custom board
+might be possible, the opportunity to use a current, inexpensive (would be donated, but students
+could buy it) and excellently suited board has changed my mind.
+
+
+
+
+
+
+
+
+
+My overall impression from Altera is that while they are enthusiastic, they have little to offer
+our educational courses, and believe that throwing money and time at problems will make them go
+away.  This is, of course, very much a good modus operandi in the business and commercial worlds
+but it does not work at an educational institution where competent workers are the limiting
+factor.  The overall problem here is that there are a small handful of competent workers, and
+to split their time between research, which is a necessary component of education, and teaching
+would degrade both to no appreciable gain.
+
+If it's true that Xilinx has sent fewer representatives to Berkeley, it is because they have no
+need to strengthen the case for their boards, the hardware and support speaks for itself.
+Furthermore the representatives from Altera, though nice people and excellent salesmen have not
+been understanding of the need to support research and education together, and being salesmen
+have had only a basic grasp of the technical and educational issues attached to board selection.
+
+In short I'm left with the feeling that Altera has promised quite a bit to Berkeley, but they
+have yet to deliver anything which we can truly use.  If they have experts at designing course
+material, as they have suggested, let them send one.  In they have boards which are an improvement
+on the CaLinx2+ even, I have yet to see or hear of one.
+
+By contrast Xilinx, over the years and now, has been quiet but helpful.  If they have promised
+less, it is because they promise only that which they know they can deliver in short order and
+working condition.
+

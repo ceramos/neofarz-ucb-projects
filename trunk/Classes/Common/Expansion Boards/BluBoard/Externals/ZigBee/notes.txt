@@ -1,0 +1,18 @@
+Second generation 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver
+----------------
+http://focus.ti.com/docs/prod/folders/print/cc2520.html
+
+CC2520 Datasheet (cc2520.pdf, 2459 KB)
+CC2520 Errata note (swrz024.pdf, 101 KB)
+
+
+
+
+
+Z-Accel 2.4 GHz ZigBee Processor (formerly CCZACC06A1)
+----------------
+http://focus.ti.com/docs/prod/folders/print/cc2480a1.html
+
+CC2480 Data Sheet (Rev. A) (cc2480a1.pdf, 712 KB)
+CC2480 Errata Note (Rev. B) (swrz027b.pdf, 48 KB)
+CC2480 Interface Specification (Rev. A) (swra175a.pdf, 620 KB)
