@@ -1,0 +1,42 @@
+MSP430 eZ430-RF2500-SEH Development Board
+MSP430 Solar Energy Harvesting Development Tool 
+
+Features
+- Efficient solar energy harvesting module for the eZ430-RF2500 
+- Battery-less operation 
+- Works in low ambient light 
+- 400+ transmissions in dark 
+- Adaptable to any RF network or sensor input 
+- Inputs available for external harvesters (thermal, piezo, 2nd solar panel, etc.) 
+- USB debugging and programming interface with application backchannel to PC 
+- 18 available analog and communications input/output pins 
+- Highly integrated, ultra-low-power MSP430 MCU with 16-MHz performance 
+- Two green and red LEDs for visual feedback 
+- Interruptible push button for user feedback
+
+What's Included
+- Two eZ430-RF2500T wireless target boards 
+- One eZ430-RF USB debugging interface 
+- One AAA battery pack with expansion board (batteries included) 
+- One SEH-01 Solar Energy Harvester Board 
+- One MSP430 Development Tool CD containing documentation and development software
+
+Pin		Function											Description
+1		GND													Ground reference
+2		VCC													Supply voltage
+3		P2.0 / ACLK / A0 / OA0I0							General-purpose digital I/O pin / ACLK output / ADC10, analog input A0
+4		P2.1 / TAINCLK / SMCLK / A1 / A0O					General-purpose digital I/O pin / ADC10, analog input A1 / Timer_A, clock signal at INCLK, SMCLK signal output
+5		P2.2 / TA0 / A2 / OA0I1								General-purpose digital I/O pin / ADC10, analog input A2 / Timer_A, capture: CCI0B input/BSL receive, compare: OUT0 output
+6		P2.3 / TA1 / A3 / VREF– / VeREF– / OA1I1 / OA1O		General-purpose digital I/O pin / Timer_A, capture: CCI1B input, compare: OUT1 output / ADC10, analog input A3 / negative reference voltage output/input
+7		P2.4 / TA2 / A4 / VREF+ / VeREF+ / OA1I0			General-purpose digital I/O pin / Timer_A, compare: OUT2 output / ADC10, analog input A4 / positive reference voltage output/input
+8		P4.3 / TB0 / A12 / OA0O								General-purpose digital I/O pin / ADC10 analog input A12 / Timer_B, capture: CCI0B input, compare: OUT0 output
+9		P4.4 / TB1 / A13 / OA1O								General-purpose digital I/O pin / ADC10 analog input A13 / Timer_B, capture: CCI1B input, compare: OUT1 output
+10		P4.5 / TB2 / A14 / OA0I3							General-purpose digital I/O pin / ADC10 analog input A14 / Timer_B, compare: OUT2 output
+11		P4.6 / TBOUTH / A15 / OA1I3							General-purpose digital I/O pin / ADC10 analog input A15 / Timer_B, switch all TB0 to TB3 outputs to high impedance
+12		GND													Ground reference
+13		P2.6 / XIN (GDO0)									General-purpose digital I/O pin / Input terminal of crystal oscillator
+14		P2.7 / XOUT (GDO2)									General-purpose digital I/O pin / Output terminal of crystal oscillator
+15		P3.2 / UCB0SOMI / UCB0SCL							General-purpose digital I/O pin / USCI_B0 slave out/master in when in SPI mode, SCL I2C clock in I2C mode
+16		P3.3 / UCB0CLK / UCA0STE							General-purpose digital I/O pin / USCI_B0 clock input/output / USCI_A0 slave transmit enable
+17		P3.0 / UCB0STE / UCA0CLK / A5						General-purpose digital I/O pin / USCI_B0 slave transmit enable / USCI_A0 clock input/output / ADC10, analog input A5
+18		P3.1 / UCB0SIMO / UCB0SDA							General-purpose digital I/O pin / USCI_B0 slave in/master out in SPI mode, SDA I2C data in I2C mode
