@@ -1,0 +1,14 @@
+SmartRF
+-Evaluate and Configure ChipCon ZigBee chips
+-Protocol
+
+eZ430-RF2500(-SEH)
+-MSP430F2274
+-CC2500 – 2.4 GHz, ISM band multi-channel low power transceiver
+-SimpliciTI, low power network stack
+
+EZ430-RF2480
+-ZigBee Network Protocol
+-Five available GPIO development pins
+
+CC2530
