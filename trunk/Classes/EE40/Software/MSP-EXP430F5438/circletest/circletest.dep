@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2491811075</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_adc.c</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_rf.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_adc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54x.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_usb.pbi</file>
+      <file>$PROJ_DIR$\..\misctest\main.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\RTCASMFunctions_IAR.s43</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_usb.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_usb.c</file>
+      <file>$PROJ_DIR$\..\..\..\Desktop\msp430\SLAC227B - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperience.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_buttons.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_usb.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_lcd.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_buttons.r43</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\cc2500.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\circletest.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_adc.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_rf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\circletest.d43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_lcd_fonts.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_lcd.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_lcd.c</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_buttons.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_buttons.c</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_board.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_board.c</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_adc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\RTCASMFunctions_IAR.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\..\..\..\Desktop\msp430\SLAC227B - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperienceDemo\balanceBall.c</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_rtc.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_rf.h</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_rf.c</file>
+      <file>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_MSP-EXP430F5438.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MSP-EXP430F5438 HAL\RTCASMFunctions_IAR.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_usb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\circletest.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 4 23 15 36 24 7 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\circletest.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 6 37 22 21 18 17 2 16 38 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_buttons.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_board.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MSP-EXP430F5438 HAL\hal_rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 26 1 43 28 30 34 32 12 41 40 19</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

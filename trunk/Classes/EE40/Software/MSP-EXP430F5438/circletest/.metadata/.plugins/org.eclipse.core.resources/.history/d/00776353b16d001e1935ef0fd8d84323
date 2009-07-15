@@ -1,0 +1,23 @@
+// test program to try things out
+
+#include  <msp430x54x.h>
+#include "MSP-EXP430F5438 HAL\hal_MSP-EXP430F5438.h"        
+
+void main(void)
+{    
+	int i=10000;
+	char color=0x00;
+  WDTCTL = WDTPW+WDTHOLD;                   // Stop watchdog timer
+  halBoardInit();  
+  halLcdInit();       
+	for(;;){
+		i--;
+		if(0==i){
+//			halLcdPrint("The robots are comingAA",color);
+			halLcdPrintXY("The robots are comingAA",2,3,color);
+			if(color == 0x04) color=0x05;
+			else color=0x04;
+			i=10000;
+		}
+	}
+}

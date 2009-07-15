@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log/>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1034</ColumnWidth1><ColumnWidth2>275</ColumnWidth2><ColumnWidth3>68</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>339</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow></Disassembly>
+      <Find-in-Files>
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window><Window><Factory>Breakpoints</Factory></Window></Windows></PreferedWindows><ColumnWidth0>496</ColumnWidth0><ColumnWidth1>70</ColumnWidth1><ColumnWidth2>850</ColumnWidth2></Find-in-Files>
+    <Watch><Format><struct_types/><watch_formats><Fmt><Key>{W}Watch-0:hourBCD</Key><Value>4</Value></Fmt><Fmt><Key>{W}Watch-0:minuteBCD</Key><Value>4</Value></Fmt><Fmt><Key>{W}Watch-0:secondBCD</Key><Value>4</Value></Fmt></watch_formats></Format><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Watch><Memory><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory><Breakpoints><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window></Windows></PreferedWindows></Breakpoints></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7777-21317</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-28751-21333</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          
+        <Tab><Identity>TabID-19844-19525</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18525-21320</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>MSP-EXP430F5438_User_Experience</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-29273-21323</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\a0271383\My Documents\MSP430 Hardware Tools\EXP430F5438\MSP-EXP430F5438 Source Code and Drivers\MSP-EXP430F5438_User_Experience_IAR\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\MSP-EXP430F5438 HAL\hal_board.c</Filename><XPos>0</XPos><YPos>91</YPos><SelStart>3925</SelStart><SelEnd>3925</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\MSP-EXP430F5438 HAL\hal_board.h</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>1957</SelStart><SelEnd>1957</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\MSP-EXP430F5438 HAL\hal_usb.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>699</SelStart><SelEnd>699</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperienceDemo\menuSetting.c</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>2542</SelStart><SelEnd>2542</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperienceDemo\UserExperienceGraphics.h</Filename><XPos>0</XPos><YPos>314</YPos><SelStart>12775</SelStart><SelEnd>12775</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\MSP-EXP430F5438 HAL\hal_lcd.c</Filename><XPos>0</XPos><YPos>218</YPos><SelStart>7257</SelStart><SelEnd>7257</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\main.c</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>607</SelStart><SelEnd>607</SelEnd></Tab><ActiveTab>7</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\EW430 v4.11B Full\430\config\lnkXMS430F5438.xcl</Filename><XPos>0</XPos><YPos>90</YPos><SelStart>643</SelStart><SelEnd>643</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\Lowinit.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>612</SelStart><SelEnd>612</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Temp_proj_test\User_Experience_Test\SLAC227 - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperience.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>658</SelStart><SelEnd>658</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-019a89d0><key>iaridepm.enu1</key></Toolbar-019a89d0></Sizes></Row0><Row1><Sizes><Toolbar-06bfed30><key>debuggergui.enu1</key></Toolbar-06bfed30></Sizes></Row1><Row2><Sizes><Toolbar-0a2b46e8><key>430fet1</key></Toolbar-0a2b46e8></Sizes></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6><Row7><Sizes/></Row7><Row8><Sizes/></Row8><Row9><Sizes/></Row9><Row10><Sizes/></Row10><Row11><Sizes/></Row11><Row12><Sizes/></Row12><Row13><Sizes/></Row13><Row14><Sizes/></Row14><Row15><Sizes/></Row15><Row16><Sizes/></Row16><Row17><Sizes/></Row17><Row18><Sizes/></Row18></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>644</Bottom><Right>413</Right><x>-2</x><y>-2</y><xscreen>162</xscreen><yscreen>229</yscreen><sizeHorzCX>126563</sizeHorzCX><sizeHorzCY>235113</sizeHorzCY><sizeVertCX>324219</sizeVertCX><sizeVertCY>663244</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>644</Bottom><Right>364</Right><x>-2</x><y>-2</y><xscreen>162</xscreen><yscreen>229</yscreen><sizeHorzCX>126563</sizeHorzCX><sizeHorzCY>235113</sizeHorzCY><sizeVertCX>285938</sizeVertCX><sizeVertCY>663244</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>236</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>238</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>244353</sizeHorzCY><sizeVertCX>126563</sizeVertCX><sizeVertCY>235113</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

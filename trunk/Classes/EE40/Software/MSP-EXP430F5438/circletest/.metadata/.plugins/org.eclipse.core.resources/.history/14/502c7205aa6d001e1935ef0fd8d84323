@@ -1,0 +1,38 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../UserExperienceDemo/UserExperience.c \
+../UserExperienceDemo/flashUtils.c 
+
+OBJS += \
+./UserExperienceDemo/UserExperience.obj \
+./UserExperienceDemo/flashUtils.obj 
+
+C_DEPS += \
+./UserExperienceDemo/UserExperience.pp \
+./UserExperienceDemo/flashUtils.pp 
+
+OBJS_QUOTED += \
+"./UserExperienceDemo/UserExperience.obj" \
+"./UserExperienceDemo/flashUtils.obj" 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+UserExperienceDemo/UserExperience.obj: ../UserExperienceDemo/UserExperience.c $(GEN_SRCS) $(GEN_OPTS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler v3.1'
+	"C:/Program Files/Texas Instruments/CC Essentials v3.1/tools/compiler/MSP430/bin/cl430" $(GEN_OPTS_QUOTED) --define=REV_02 --fp_reassoc=off --include_path="C:/Program Files/Texas Instruments/CC Essentials v3.1/tools/compiler/MSP430/include" --sat_reassoc=off --undefine=REV_02 --symdebug:dwarf --large_memory_model --plain_char=unsigned --silicon_version=mspx --opt_for_speed=0 --opt_level=3 --printf_support=full --obj_directory="UserExperienceDemo" --preproc_with_compile --preproc_dependency="UserExperienceDemo/UserExperience.pp" $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+UserExperienceDemo/flashUtils.obj: ../UserExperienceDemo/flashUtils.c $(GEN_SRCS) $(GEN_OPTS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler v3.1'
+	"C:/Program Files/Texas Instruments/CC Essentials v3.1/tools/compiler/MSP430/bin/cl430" $(GEN_OPTS_QUOTED) --define=REV_02 --fp_reassoc=off --include_path="C:/Program Files/Texas Instruments/CC Essentials v3.1/tools/compiler/MSP430/include" --sat_reassoc=off --undefine=REV_02 --symdebug:dwarf --large_memory_model --plain_char=unsigned --silicon_version=mspx --opt_for_speed=0 --opt_level=3 --printf_support=full --obj_directory="UserExperienceDemo" --preproc_with_compile --preproc_dependency="UserExperienceDemo/flashUtils.pp" $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

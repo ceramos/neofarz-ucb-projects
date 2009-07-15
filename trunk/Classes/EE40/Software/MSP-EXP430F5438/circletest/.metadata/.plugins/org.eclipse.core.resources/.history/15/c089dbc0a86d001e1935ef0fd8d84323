@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../msp430x5xx_fet_1.c 
+
+CMD_SRCS += \
+../lnk_msp430f5438.cmd 
+
+OBJS += \
+./msp430x5xx_fet_1.obj 
+
+C_DEPS += \
+./msp430x5xx_fet_1.pp 
+
+OBJS_QUOTED += \
+"./msp430x5xx_fet_1.obj" 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+msp430x5xx_fet_1.obj: ../msp430x5xx_fet_1.c $(GEN_SRCS) $(GEN_OPTS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler v3.1'
+	"C:/Program Files/Texas Instruments/CC Essentials v3.1/tools/compiler/MSP430/bin/cl430" $(GEN_OPTS_QUOTED) --fp_reassoc=off --include_path="C:/Program Files/Texas Instruments/CC Essentials v3.1/tools/compiler/MSP430/include" --sat_reassoc=off --symdebug:dwarf --plain_char=unsigned --silicon_version=mspx --printf_support=minimal --preproc_with_compile --preproc_dependency="msp430x5xx_fet_1.pp" $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
