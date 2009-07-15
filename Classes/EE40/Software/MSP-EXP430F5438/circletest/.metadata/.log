@@ -1,0 +1,55 @@
+!SESSION 2009-07-10 16:12:31.984 -----------------------------------------------
+eclipse.buildId=3.2.4.3.8
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.configurator 2009-07-10 16:12:32.780
+!MESSAGE Duplicate feature found on site platform:/base/ : org.eclipse.tm.terminal
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2009-07-10 16:22:40.038
+!MESSAGE Error: MSP430: Error initializing emulator: Version mismatch, a firmware update is required
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2009-07-10 16:23:12.570
+!MESSAGE Failed to initialize the Debug Server.
+
+Reason:
+MSP430: Error initializing emulator: Version mismatch, a firmware update is required
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2009-07-10 16:24:04.039
+!MESSAGE Error: MSP430: Error initializing emulator: Tried to initialize USB FET number 2, but only found 1 USB FETs
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2009-07-10 16:24:08.711
+!MESSAGE Failed to initialize the Debug Server.
+
+Reason:
+MSP430: Error initializing emulator: Tried to initialize USB FET number 2, but only found 1 USB FETs
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2009-07-10 16:24:28.368
+!MESSAGE Error: MSP430: Error initializing emulator: Version mismatch, a firmware update is required
+
+
+!ENTRY org.eclipse.debug.core 4 120 2009-07-10 16:25:14.868
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Pipe broken
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:138)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:194)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2009-07-10 17:30:25.934
+!MESSAGE Error: MSP430: Trouble Halting Target CPU: Could not terminate EEM polling thread.
+

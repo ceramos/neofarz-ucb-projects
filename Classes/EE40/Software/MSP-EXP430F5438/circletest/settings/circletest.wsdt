@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>circletest/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>180</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>670</ColumnWidth1><ColumnWidth2>178</ColumnWidth2><ColumnWidth3>44</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>370</ColumnWidth0><ColumnWidth1>46</ColumnWidth1><ColumnWidth2>558</ColumnWidth2></Find-in-Files>
+    <TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>894</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1313-3899</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-4868-4856</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-15805-11201</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-32367-11505</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>circletest</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\Desktop\msp430\SLAC227B - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperience.c</Filename><XPos>0</XPos><YPos>55</YPos><SelStart>10697</SelStart><SelEnd>10697</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\Desktop\msp430\SLAC227B - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperienceDemo\balanceBall.c</Filename><XPos>0</XPos><YPos>62</YPos><SelStart>784</SelStart><SelEnd>784</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\My Documents\workspace\circletest\MSP-EXP430F5438 HAL\hal_MSP-EXP430F5438.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>490</SelStart><SelEnd>490</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\Desktop\msp430\SLAC227B - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\UserExperienceDemo\menuSetting.c</Filename><XPos>0</XPos><YPos>409</YPos><SelStart>13045</SelStart><SelEnd>13045</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\Desktop\msp430\SLAC227B - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\MSP-EXP430F5438 HAL\hal_adc.h</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>1684</SelStart><SelEnd>1684</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\Desktop\msp430\SLAC227B - MSP-EXP430F5438 Example Software &amp; USB Drivers\User_Experience_Demo_IAR\MSP-EXP430F5438_User_Experience_IAR\MSP-EXP430F5438 HAL\hal_adc.c</Filename><XPos>0</XPos><YPos>13</YPos><SelStart>861</SelStart><SelEnd>861</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\My Documents\workspace\circletest\main.c</Filename><XPos>0</XPos><YPos>151</YPos><SelStart>3628</SelStart><SelEnd>3628</SelEnd></Tab><ActiveTab>6</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00aba0a8><key>iaridepm.enu1</key></Toolbar-00aba0a8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6><Row7><Sizes/></Row7><Row8><Sizes/></Row8><Row9><Sizes/></Row9><Row10><Sizes/></Row10><Row11><Sizes/></Row11><Row12><Sizes/></Row12><Row13><Sizes/></Row13><Row14><Sizes/></Row14><Row15><Sizes/></Row15><Row16><Sizes/></Row16><Row17><Sizes/></Row17><Row18><Sizes/></Row18><Row19><Sizes/></Row19><Row20><Sizes/></Row20><Row21><Sizes/></Row21><Row22><Sizes/></Row22><Row23><Sizes/></Row23><Row24><Sizes/></Row24><Row25><Sizes/></Row25><Row26><Sizes/></Row26><Row27><Sizes/></Row27><Row28><Sizes/></Row28><Row29><Sizes/></Row29><Row30><Sizes/></Row30><Row31><Sizes/></Row31><Row32><Sizes/></Row32><Row33><Sizes/></Row33><Row34><Sizes/></Row34><Row35><Sizes/></Row35><Row36><Sizes/></Row36><Row37><Sizes/></Row37><Row38><Sizes/></Row38><Row39><Sizes/></Row39><Row40><Sizes/></Row40><Row41><Sizes/></Row41><Row42><Sizes/></Row42><Row43><Sizes/></Row43><Row44><Sizes/></Row44><Row45><Sizes/></Row45><Row46><Sizes/></Row46><Row47><Sizes/></Row47><Row48><Sizes/></Row48><Row49><Sizes/></Row49><Row50><Sizes/></Row50><Row51><Sizes/></Row51><Row52><Sizes/></Row52><Row53><Sizes/></Row53><Row54><Sizes/></Row54><Row55><Sizes/></Row55><Row56><Sizes/></Row56><Row57><Sizes/></Row57><Row58><Sizes/></Row58></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>573</Bottom><Right>254</Right><x>-2</x><y>-2</y><xscreen>256</xscreen><yscreen>255</yscreen><sizeHorzCX>210181</sizeHorzCX><sizeHorzCY>293103</sizeHorzCY><sizeVertCX>210181</sizeVertCX><sizeVertCY>660920</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>253</Bottom><Right>1220</Right><x>-2</x><y>-2</y><xscreen>1222</xscreen><yscreen>255</yscreen><sizeHorzCX>1003284</sizeHorzCX><sizeHorzCY>293103</sizeHorzCY><sizeVertCX>210181</sizeVertCX><sizeVertCY>293103</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
