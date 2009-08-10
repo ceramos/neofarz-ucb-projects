@@ -24,10 +24,67 @@
     (ANNOTATE_Property_Combine
        "{Value}{Source Package}{POWER_GROUP}{PCB_Footprint}")
     (ANNOTATE_IncludeNonPrimitive "FALSE")
-    (ANNOTATE_Refdes_Control_Required "FALSE"))
-  (Folder "Outputs")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\SCHEMATIC\BLUETOOTHEVAL.DRC"))
+  (Folder "Outputs"
+    (File ".\bluetootheval.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CONN_DSUB_9_P
+      (FullPartName "CONN_DSUB_9_P.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SW_DIP_3
+      (FullPartName "SW_DIP_3.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR/SM
+      (FullPartName "RESISTOR/SM.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("6-Pin Connector"
+      (FullPartName "6-Pin Connector.Normal")
+      (LibraryName
+         "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
+      (DeviceIndex "0"))
+    (CAP/SM
+      (FullPartName "CAP/SM.Normal")
+      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MAX3224
+      (FullPartName "MAX3224.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\BUSDRIVERTRANSCEIVER.OLB")
+      (DeviceIndex "0"))
     (HDR64
       (FullPartName "HDR64.Normal")
       (LibraryName "W:\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
@@ -76,18 +133,9 @@
       (FullPartName "P82B96.Normal")
       (LibraryName "W:\BEEKEEPER\PCBS\MAINBOARD\CIS\LIB\LIB.OLB")
       (DeviceIndex "0"))
-    ("6-Pin Connector"
-      (FullPartName "6-Pin Connector.Normal")
-      (LibraryName
-         "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
-      (DeviceIndex "0"))
     (MPS5179
       (FullPartName "MPS5179.Normal")
       (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
-      (DeviceIndex "0"))
-    (CAP/SM
-      (FullPartName "CAP/SM.Normal")
-      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     ("DIODE BREAKDOWN"
       (FullPartName "DIODE BREAKDOWN.Normal")
@@ -97,53 +145,21 @@
       (FullPartName "RGBLed.Normal")
       (LibraryName
          "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR/SM
-      (FullPartName "RESISTOR/SM.Normal")
-      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PCF8591
-      (FullPartName "PCF8591.Normal")
-      (LibraryName
-         "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
-      (DeviceIndex "0"))
-    (PCA9635
-      (FullPartName "PCA9635.Normal")
-      (LibraryName
-         "E:\NEOFARZ\DOCUMENTS\SVN\PROJECTS\CLASSES\TRUNK\COMMON\EXPANSION BOARD\BOARDS\BLUETOOTHEVAL\SCHEMATIC\LIB\BLUETOOTHEVAL.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "T:\CADENCE\SPB_16_0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "W:\BlueToothEval\Schematic\bluetootheval.dsn")
-      (Path "Design Resources" "W:\BlueToothEval\Schematic\bluetootheval.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "W:\BlueToothEval\Schematic\bluetootheval.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\bluetootheval.dsn")
+      (Path "Design Resources" ".\bluetootheval.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "W:\BlueToothEval\Schematic\lib\bluetootheval.olb"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\bluetootheval.dsn" "SCHEMATIC1"
+         "I2C A2D D2A Driver"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -28 0 200 0 584"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 584"))
       (Tab 0)))
-  (MPSSessionName "il0rusa")
+  (MPSSessionName "NeoFarz")
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.0\tools\capture\library"))

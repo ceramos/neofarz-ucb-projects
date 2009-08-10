@@ -1,0 +1,241 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_TXD
+                    SCHEMATIC1, Bluetooth  (3.70, 2.20) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_TXD
+                    SCHEMATIC1, Bluetooth  (7.20, 3.30) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_RXD
+                    SCHEMATIC1, Bluetooth  (3.70, 2.30) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_RXD
+                    SCHEMATIC1, Bluetooth  (6.60, 3.70) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_OP4
+                    SCHEMATIC1, Bluetooth  (3.70, 1.50) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_CTS#
+                    SCHEMATIC1, Bluetooth  (3.70, 2.00) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_CTS#
+                    SCHEMATIC1, Bluetooth  (5.80, 3.90) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_RTS#
+                    SCHEMATIC1, Bluetooth  (3.70, 2.10) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_RTS#
+                    SCHEMATIC1, Bluetooth  (6.90, 3.50) 
+WARNING:  [DRC0004]  Possible pin type conflict U1,PG6 Bidirectional Connected to Output Port
+                    SCHEMATIC1, Bluetooth  (3.80, 2.70) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net BT_OP5
+                    SCHEMATIC1, Bluetooth  (3.70, 1.60) 
+WARNING:  [DRC0004]  Possible pin type conflict U1,OP5 Bidirectional Connected to Output Port
+                    SCHEMATIC1, Bluetooth  (3.80, 1.60) 
+WARNING:  [DRC0004]  Possible pin type conflict U1,PG7 Bidirectional Connected to Output Port
+                    SCHEMATIC1, Bluetooth  (3.80, 2.80) 
+WARNING:  [DRC0005]  Unconnected pin U4,A0
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 4.40) 
+WARNING:  [DRC0005]  Unconnected pin U4,A1
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 4.50) 
+WARNING:  [DRC0005]  Unconnected pin U4,A2
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 4.60) 
+WARNING:  [DRC0005]  Unconnected pin U4,A3
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 4.70) 
+WARNING:  [DRC0005]  Unconnected pin U4,A4
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 4.80) 
+WARNING:  [DRC0005]  Unconnected pin U4,A5
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 4.90) 
+WARNING:  [DRC0005]  Unconnected pin U4,A6
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 5.00) 
+WARNING:  [DRC0005]  Unconnected pin U3,A0
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 1.30) 
+WARNING:  [DRC0005]  Unconnected pin U3,A1
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 1.40) 
+WARNING:  [DRC0005]  Unconnected pin U3,A2
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 1.50) 
+WARNING:  [DRC0005]  Unconnected pin U3,A3
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 1.60) 
+WARNING:  [DRC0005]  Unconnected pin U3,A4
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 1.70) 
+WARNING:  [DRC0005]  Unconnected pin U3,A5
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 1.80) 
+WARNING:  [DRC0005]  Unconnected pin U3,A6
+                    SCHEMATIC1, I2C RGB and DIP RTC  (1.40, 1.90) 
+WARNING:  [DRC0005]  Unconnected pin U2,A0
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.00, 3.70) 
+WARNING:  [DRC0005]  Unconnected pin U2,A1
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.00, 3.80) 
+WARNING:  [DRC0005]  Unconnected pin U2,A2
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.00, 3.90) 
+WARNING:  [DRC0005]  Unconnected pin U9,A0
+                    SCHEMATIC1, I2C HEX  (5.60, 0.90) 
+WARNING:  [DRC0005]  Unconnected pin U9,A1
+                    SCHEMATIC1, I2C HEX  (5.60, 1.00) 
+WARNING:  [DRC0005]  Unconnected pin U9,A2
+                    SCHEMATIC1, I2C HEX  (5.60, 1.10) 
+WARNING:  [DRC0005]  Unconnected pin U9,A3
+                    SCHEMATIC1, I2C HEX  (5.60, 1.20) 
+WARNING:  [DRC0005]  Unconnected pin U9,A4
+                    SCHEMATIC1, I2C HEX  (5.60, 1.30) 
+WARNING:  [DRC0005]  Unconnected pin U9,A5
+                    SCHEMATIC1, I2C HEX  (5.60, 1.40) 
+WARNING:  [DRC0005]  Unconnected pin U9,A6
+                    SCHEMATIC1, I2C HEX  (5.60, 1.50) 
+WARNING:  [DRC0005]  Unconnected pin U7,A0
+                    SCHEMATIC1, I2C HEX  (1.10, 0.90) 
+WARNING:  [DRC0005]  Unconnected pin U7,A1
+                    SCHEMATIC1, I2C HEX  (1.10, 1.00) 
+WARNING:  [DRC0005]  Unconnected pin U7,A2
+                    SCHEMATIC1, I2C HEX  (1.10, 1.10) 
+WARNING:  [DRC0005]  Unconnected pin U7,A3
+                    SCHEMATIC1, I2C HEX  (1.10, 1.20) 
+WARNING:  [DRC0005]  Unconnected pin U7,A4
+                    SCHEMATIC1, I2C HEX  (1.10, 1.30) 
+WARNING:  [DRC0005]  Unconnected pin U7,A5
+                    SCHEMATIC1, I2C HEX  (1.10, 1.40) 
+WARNING:  [DRC0005]  Unconnected pin U7,A6
+                    SCHEMATIC1, I2C HEX  (1.10, 1.50) 
+WARNING:  [DRC0005]  Unconnected pin U8,A0
+                    SCHEMATIC1, I2C HEX  (1.10, 4.00) 
+WARNING:  [DRC0005]  Unconnected pin U8,A1
+                    SCHEMATIC1, I2C HEX  (1.10, 4.10) 
+WARNING:  [DRC0005]  Unconnected pin U8,A2
+                    SCHEMATIC1, I2C HEX  (1.10, 4.20) 
+WARNING:  [DRC0005]  Unconnected pin U8,A3
+                    SCHEMATIC1, I2C HEX  (1.10, 4.30) 
+WARNING:  [DRC0005]  Unconnected pin U8,A4
+                    SCHEMATIC1, I2C HEX  (1.10, 4.40) 
+WARNING:  [DRC0005]  Unconnected pin U8,A5
+                    SCHEMATIC1, I2C HEX  (1.10, 4.50) 
+WARNING:  [DRC0005]  Unconnected pin U8,A6
+                    SCHEMATIC1, I2C HEX  (1.10, 4.60) 
+WARNING:  [DRC0005]  Unconnected pin U10,A0
+                    SCHEMATIC1, I2C HEX  (5.60, 4.00) 
+WARNING:  [DRC0005]  Unconnected pin U10,A1
+                    SCHEMATIC1, I2C HEX  (5.60, 4.10) 
+WARNING:  [DRC0005]  Unconnected pin U10,A2
+                    SCHEMATIC1, I2C HEX  (5.60, 4.20) 
+WARNING:  [DRC0005]  Unconnected pin U10,A3
+                    SCHEMATIC1, I2C HEX  (5.60, 4.30) 
+WARNING:  [DRC0005]  Unconnected pin U10,A4
+                    SCHEMATIC1, I2C HEX  (5.60, 4.40) 
+WARNING:  [DRC0005]  Unconnected pin U10,A5
+                    SCHEMATIC1, I2C HEX  (5.60, 4.50) 
+WARNING:  [DRC0005]  Unconnected pin U10,A6
+                    SCHEMATIC1, I2C HEX  (5.60, 4.60) 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0007]  Net has no driving source BT_RESET#
+                    SCHEMATIC1, Bluetooth  (3.80, 2.60) 
+WARNING:  [DRC0007]  Net has no driving source I2C_SCL_RX
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.10, 1.80) 
+WARNING:  [DRC0007]  Net has no driving source I2C_SDA_RX
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.10, 1.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections GND
+                    SCHEMATIC1, Bluetooth  (8.20, 5.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections RTC_INT
+                    SCHEMATIC1, I2C RGB and DIP RTC  (8.40, 4.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections BT_RESET#
+                    SCHEMATIC1, Bluetooth  (3.80, 2.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections I2C_SCL_RX
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.10, 1.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections I2C_SCL_TX
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.10, 1.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections I2C_SDA_RX
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.10, 1.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections I2C_SDA_TX
+                    SCHEMATIC1, I2C A2D D2A Driver  (2.10, 1.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_GPIO4
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_GPIO3
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_GPIO2
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_GPIO1
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_GPIO0
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_GPIO5
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_VREG_EN
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_RESET#
+                    SCHEMATIC1, ZIGBEE  (2.70, 3.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_SCLK
+                    SCHEMATIC1, ZIGBEE  (2.70, 2.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_CS#
+                    SCHEMATIC1, ZIGBEE  (2.70, 2.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_SI
+                    SCHEMATIC1, ZIGBEE  (2.70, 2.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZB_SO
+                    SCHEMATIC1, ZIGBEE  (2.70, 2.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections N325413
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections N325038
+                    SCHEMATIC1, CONNECTORS  (5.60, 4.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324665
+                    SCHEMATIC1, CONNECTORS  (5.60, 4.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324661
+                    SCHEMATIC1, CONNECTORS  (5.60, 4.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324657
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324653
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections N322224
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections N321903
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections N321584
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections N321267
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections N320952
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323456
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323452
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323448
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections N322547
+                    SCHEMATIC1, CONNECTORS  (5.60, 1.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324242
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324238
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324234
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323855
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323851
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323847
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323843
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323839
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323835
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323468
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323464
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections N323460
+                    SCHEMATIC1, CONNECTORS  (5.60, 2.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324649
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324645
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324254
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324250
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.50) 
+WARNING:  [DRC0006]  Net has fewer than two connections N324246
+                    SCHEMATIC1, CONNECTORS  (5.60, 3.30) 
+
+Checking for Invalid References
+[DRC0011]  Reference is invalid for this part BAT
+                    SCHEMATIC1, I2C RGB and DIP RTC  (9.10, 3.60) 
+
+Checking for Duplicate References
+
+Check Bus width mismatch

@@ -1,0 +1,39 @@
+(ExpressProject "BluBoard_Lite"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\bluboard_lite.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\BB_Lite\Schematic\bluboard_lite.dsn")
+      (Path "Design Resources"
+         "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\BB_Lite\Schematic\bluboard_lite.dsn"
+         "SCHEMATIC1")
+      (Select "Referenced Projects"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 574"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 150 1530 150 762")
+        (Scroll "0 0")
+        (Zoom "120")
+        (Occurrence "/"))
+      (Path
+         "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\BB_LITE\SCHEMATIC\BLUBOARD_LITE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Bluetooth"))))
