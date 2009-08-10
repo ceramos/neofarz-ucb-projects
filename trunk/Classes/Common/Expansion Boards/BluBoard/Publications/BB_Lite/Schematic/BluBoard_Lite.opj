@@ -10,15 +10,17 @@
     (CompileFileAddedOrDeleted "x"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SW_PUSHBUTTON_SPST_2
+      (FullPartName "SW_PUSHBUTTON_SPST_2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\BB_Lite\Schematic\bluboard_lite.dsn")
-      (Path "Design Resources"
-         "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\BB_Lite\Schematic\bluboard_lite.dsn"
-         "SCHEMATIC1")
       (Select "Referenced Projects"))
     (HierarchyView)
     (Doc
@@ -29,11 +31,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 150 1530 150 762")
-        (Scroll "0 0")
-        (Zoom "120")
+        (Placement "44 2 1 0 885 -8 -30 150 1530 150 762")
+        (Scroll "94 0")
+        (Zoom "148")
         (Occurrence "/"))
       (Path
          "E:\NEOFARZ\DOCUMENTS\SVN\GOOGLE\TRUNK\CLASSES\COMMON\EXPANSION BOARDS\BLUBOARD\PUBLICATIONS\BB_LITE\SCHEMATIC\BLUBOARD_LITE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Bluetooth"))))
+      (Page "Bluetooth")))
+  (MPSSessionName "NeoFarz"))
